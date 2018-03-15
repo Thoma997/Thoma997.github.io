@@ -3565,7 +3565,7 @@
 		opacity: 1;
 	}
 
-/* CTA */
+/* CTA
 
 	#cta .inner {
 		display: -moz-flex;
@@ -3594,7 +3594,7 @@
 			-ms-order: 2;
 			order: 2;
 			width: 30%;
-		}
+		} */
 
 		@media screen and (max-width: 980px) {
 
