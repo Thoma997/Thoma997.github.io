@@ -2036,14 +2036,21 @@
 				ul.icons.major li {
 					padding-right: 3.5em;
 				}
-
 					@media screen and (max-width: 736px) {
 
 						ul.icons.major li {
 							padding: 0 1em !important;
 						}
-
 					}
+
+		ul.navigation{
+			position: fixed;
+			right: 0px;
+			top: 0px;
+			margin-right: 3%;
+
+		}
+
 
 		ul.actions {
 			cursor: default;
@@ -2455,7 +2462,7 @@
 
 				.features li {
 					padding: 3em 2em 1em 2em ;
-					text-align: center;
+					text-align: justify;
 				}
 
 					.features li:before {
@@ -2605,9 +2612,11 @@
 
 			.spotlight .content {
 				padding: 3em 2em 1em 2em ;
+				text-align: justify;
 			}
 
 		}
+
 
 /* Wrapper */
 
@@ -3441,7 +3450,7 @@
 			}
 
 		#banner p {
-			letter-spacing: 0.225em;
+			/*letter-spacing: 0.225em;*/
 			text-transform: uppercase;
 		}
 
